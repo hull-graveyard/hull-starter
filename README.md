@@ -11,8 +11,6 @@ It defines :
   * Describes the configurable `settings` (with a schema to generate the "Customize" admin)
   * Describes the required attached resources, their format (schema) and default values
   * Lists available locales
-  * Describes reporting dashboard
-  * Describes default users segments
 
 **example**
 

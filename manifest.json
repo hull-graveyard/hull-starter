@@ -2,7 +2,7 @@
   "name" : "hull-ship-starter",
   "version" : "0.0.0",
   "description" : "A Very minimal Ship for hull.io",
-  "index" : "index.html",
+  "index" : "index.liquid.html",
   "settings" : [
     {
       "name" : "background_color",
