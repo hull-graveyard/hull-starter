@@ -3,6 +3,7 @@
   "version" : "0.0.0",
   "description" : "A Very minimal Ship for hull.io",
   "index" : "index.html",
+  "fullpage" : true,
   "settings" : [
     {
       "name" : "background_color",
