@@ -1,33 +1,16 @@
 {
-  "name" : "hull-ship-starter",
-  "version" : "0.0.0",
+  "name" : "hull-starter",
   "description" : "A Very minimal Ship for hull.io",
-  "index" : "index.liquid.html",
-  "fullpage" : true,
+  "version" : "0.0.1",
+  "index" : "ship.html",
   "settings" : [
     {
-      "name" : "background_color",
+      "name" : "color",
+      "title" : "Color",
       "type" : "string",
-      "title" : "Background Color",
-      "format" : "color",
-      "default" : "#ffffff"
-    },
-    {
-      "name" : "text_color",
-      "type" : "string",
-      "title" : "Text Color",
       "format" : "color",
       "default" : "#ff0000"
-    },
-    {
-      "name" : "brand_image",
-      "type" : "string",
-      "title" : "Brand Image",
-      "format" : "image"
     }
-  ],
-  "resources" : [
-    { "name" : "form", "type" : "form" }
   ],
   "locales" : ["en"]
 }
