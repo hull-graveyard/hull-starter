@@ -37,9 +37,9 @@ Hull.onEmbed(document, function(element, deployment) {
 
 `deployment` is an object that contains contextual information about the ship deployment.
 
-- **`ship`**, The instance of your ship. This is where the settings that you defined in `manifest.settings` are.
+- **`ship`**, The instance of your ship. This is where the settings that you defined in `manifest.settings` are stored.
 - **`platform`**, The current Hull Platform.
-- **`settings`** ,  This is where the settings that you defined in `manifest.deployment_settings` are.
+- **`settings`** ,  This is where the settings that you defined in `manifest.deployment_settings` are stored.
 - **`organization`**, The current Hull Organization.
 
 ### `locales`
@@ -48,7 +48,7 @@ The folder where your locales are.
 
 #### locale file
 
-Locale file a a JSON file, that contains the string that will be editable in the Wording section of the Hull dashboard.
+Locale file is a JSON file, that contains the strings that will be editable in the wording section of the Hull dashboard.
 
 ```
 {
@@ -60,11 +60,11 @@ Locale file a a JSON file, that contains the string that will be editable in the
 
 #### `manifest.json`
 
-A JSON file that describe your ship.
+A JSON file that describes your ship.
 
 ## Manifest
 
-The manifest is a json file that describe a ship. It allows us to generate admin interfaces.
+The manifest is a json file that describes a ship. It allows Hull to generate a user interface to customize the ship.
 
 - [Minimal manifest](https://github.com/hull-ships/hull-comments-count/blob/master/manifest.json)
 - [Login Dialog Manifest](https://github.com/hull-ships/hull-login/blob/master/manifest.json)
